@@ -1,0 +1,49 @@
+/*---------- login ----------*/
+
+    .uname,.info,.content-header {
+        text-transform: uppercase;
+    }
+    
+/*------------- Chat ----------*/
+
+#chat {
+  border: 1px solid #999;
+  background-color: #ddd;
+  overflow: auto;
+  height: 150px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.user-me {
+  font-weight: bold;
+  color: #f00;
+}
+.user {
+  font-weight: bold;
+  color: #00f;
+}
+.system {
+  color: #999;
+  font-style: italic;
+}
+
+/*---------- Map -----------*/
+
+  
+#map-canvas, #map-canvas1 {
+    height: 400px;
+    margin: 0px;
+    padding: 0px
+}
+ 
+   .labels {
+     color: red;
+     background-color: white;
+     font-family: "Lucida Grande", "Arial", sans-serif;
+     font-size: 10px;
+     font-weight: bold;
+     text-align: center;
+     width: 40px;     
+     border: 2px solid black;
+     white-space: nowrap;
+   } 
